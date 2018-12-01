@@ -1,0 +1,67 @@
+00:42:08.650 skipping bootstrap configuration: could not find or read file: karate-config.js, prefix: CLASSPATH
+00:42:09.030 request:
+1 > GET http://localhost:4567/hello
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:4567
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+
+00:42:09.065 response time in milliseconds: 34
+1 < 200
+1 < Content-Type: text/html;charset=utf-8
+1 < Date: Sat, 01 Dec 2018 02:42:09 GMT
+1 < Server: Jetty(9.3.2.v20150730)
+1 < Transfer-Encoding: chunked
+Hello World!
+
+00:39:46.223 status code was: 200, expected: 400, response time: 36, url: http://localhost:4567/hello, response: Hello World!
+/localhost:4567/avengers/any-id, response: <html>
+    <body>
+        <h2>404 Not found</h2>
+    </body>
+</html>
+
+kipping bootstrap configuration: could not find or read file: karate-config.js, prefix: CLASSPATH
+00:27:13.932 request:
+1 > GET http://localhost:4567/posts/10
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:4567
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+
+00:27:13.938 response time in milliseconds: 6
+1 < 404
+1 < Content-Type: text/html;charset=utf-8
+1 < Date: Sat, 01 Dec 2018 02:27:13 GMT
+1 < Server: Jetty(9.3.2.v20150730)
+1 < Transfer-Encoding: chunked
+<html><body><h2>404 Not found</h2></body></html>
+
+00:27:13.942 status code was: 404, expected: 200, response time: 6, url: http://localhost:4567/posts/10, response: <html>
+    <body>
+        <h2>404 Not found</h2>
+    </body>
+</html>
+
+00:27:13.962 skipping bootstrap configuration: could not find or read file: karate-config.js, prefix: CLASSPATH
+00:27:13.968 request:
+1 > GET http://localhost:4567/posts/10
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:4567
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/10.0.2)
+
+00:27:13.973 response time in milliseconds: 5
+1 < 404
+1 < Content-Type: text/html;charset=utf-8
+1 < Date: Sat, 01 Dec 2018 02:27:13 GMT
+1 < Server: Jetty(9.3.2.v20150730)
+1 < Transfer-Encoding: chunked
+<html><body><h2>404 Not found</h2></body></html>
+
+00:27:13.976 status code was: 404, expected: 200, response time: 5, url: http://localhost:4567/posts/10, response: <html>
+    <body>
+        <h2>404 Not found</h2>
+    </body>
+</html>
+
