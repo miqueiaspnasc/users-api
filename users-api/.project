@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>users-api</name>
-	<comment>Project users-api created by Buildship.</comment>
+	<name>gradle_karate_demo</name>
+	<comment>Project gradle_karate_demo created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
